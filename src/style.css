@@ -2,6 +2,7 @@
     --color-header: #2C334D;
     --color-logo: slateblue;
     --color-links: teal;
+    --color-corpo:  #17191B;
 }
 *{
     margin: 0;
@@ -9,7 +10,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #17191B;
+    background: var(--color-corpo);
 }
 /**HEADER***/
 .header-color{
@@ -55,5 +56,10 @@ body{
     width: 500px;
 }
 .campo_texto h1{
-    
+    color: var(--color-logo);
+}
+.campo_texto p{
+    color: white;
+    line-height: 1.5;
+    font-size: 1.1rem;
 }
