@@ -25,6 +25,14 @@ function App() {
             quando um impressor desconhecido pegou uma galé do tipo e embaralhou para fazer um livro de amostra de tipos.
             Ele sobreviveu não apenas cinco séculos, mas também ao salto para a composição
           </p>
+
+          <h1>Texto</h1>
+          <p>
+            orem Ipsum é simplesmente um texto fictício da indústria de impressão e composição. 
+            Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, 
+            quando um impressor desconhecido pegou uma galé do tipo e embaralhou para fazer um livro de amostra de tipos.
+            Ele sobreviveu não apenas cinco séculos, mas também ao salto para a composição
+          </p>
         </div>
         <div className="lottie-config">
           <Lottie options={defaultOptions} height={400} width={340}/>
