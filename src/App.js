@@ -5,7 +5,6 @@ import Header from './Header';
 
 
 function App() {
-const container = React.useRef(null)
   const defaultOptions = ({
     loop: true,
     autoplay: true,
@@ -28,7 +27,7 @@ const container = React.useRef(null)
           </p>
         </div>
         <div className="lottie-config">
-          <Lottie options={defaultOptions} height={400} width={400}/>
+          <Lottie options={defaultOptions} height={400} width={340}/>
         </div>
       </div>
     </>
