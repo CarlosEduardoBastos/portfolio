@@ -15,15 +15,20 @@ body{
 /**HEADER***/
 .header-color{
     background: var(--color-header);
-    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 200;
+    top: 0;
 }
 .header-color section{
     max-width: 960px;
     margin: 0 auto;
     display: flex;
+    
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    
 }
 .header-color section .logo{
     color: var(--color-logo);
@@ -41,7 +46,7 @@ body{
     text-decoration: none;
 }
 /*CORPO*/
-.lottie-animation{
+.corpo{
     max-width: 960px;
     justify-content: space-between;
     margin: 60px auto;
@@ -62,4 +67,46 @@ body{
     color: white;
     line-height: 1.5;
     font-size: 1.1rem;
+}
+
+/*informacao*/
+.informacao{
+    max-width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    background: var(--color-header);
+    text-align: center;
+}
+.informacao h1{
+    text-align: center;
+    color: var(--color-logo);
+    font-size: 1.8rem;
+}
+.corpo-info{
+    margin: 30px auto;
+    margin-left: 10px;
+}
+
+.html-info,.css-info,.js-info,.react-info,.next-info{
+    font-size: 1.6rem;
+    margin-top: 5px;
+    text-align: center;
+}
+.corpo-info .html-info{
+    color: #DD4B25;
+}
+.corpo-info small{
+    color: rgb(0, 119, 107);
+}
+.corpo-info .css-info{
+    color: #0076C0;
+}
+.corpo-info .js-info{
+    color: #F0C020;
+}
+.corpo-info .react-info {
+    color: #5ED3F3;
+}
+.corpo-info .next-info{
+    color: #000000;
 }
